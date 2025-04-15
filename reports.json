@@ -1,0 +1,54 @@
+{
+    "activeTrainsToday": [
+      {
+        "trainName": "ABC Express",
+        "departureTime": "14:00",
+        "source": "New York",
+        "destination": "Chicago"
+      },
+      {
+        "trainName": "XYZ Limited",
+        "departureTime": "09:30",
+        "source": "Los Angeles",
+        "destination": "San Francisco"
+      }
+    ],
+    "stationsForTrains": [
+      {
+        "trainName": "ABC Express",
+        "stations": ["New York", "Philadelphia", "Pittsburgh", "Chicago"]
+      },
+      {
+        "trainName": "XYZ Limited",
+        "stations": ["Los Angeles", "Santa Barbara", "San Francisco"]
+      }
+    ],
+    "reservationsByPassengerId": [
+      {
+        "passengerId": "P001",
+        "reservations": [
+          {
+            "trainName": "ABC Express",
+            "date": "2024-11-25",
+            "status": "Confirmed"
+          },
+          {
+            "trainName": "XYZ Limited",
+            "date": "2024-12-01",
+            "status": "Cancelled"
+          }
+        ]
+      }
+    ],
+    "waitlistedPassengers": [
+      {
+        "trainName": "123 Superfast",
+        "class": "First Class",
+        "loyaltyPassengers": [
+          { "passengerId": "P002", "name": "Jane Doe" },
+          { "passengerId": "P003", "name": "John Smith" }
+        ]
+      }
+    ]
+  }
+  

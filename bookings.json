@@ -1,0 +1,36 @@
+[
+    {
+      "bookingId": 1,
+      "passengerId": "P001",
+      "trainName": "ABC Express",
+      "date": "2024-11-25",
+      "time": "14:00",
+      "status": "Confirmed",
+      "seatNumber": "A1-23",
+      "source": "New York",
+      "destination": "Chicago"
+    },
+    {
+      "bookingId": 2,
+      "passengerId": "P001",
+      "trainName": "XYZ Limited",
+      "date": "2024-12-01",
+      "time": "09:30",
+      "status": "Cancelled",
+      "seatNumber": "B2-12",
+      "source": "Los Angeles",
+      "destination": "San Francisco"
+    },
+    {
+      "bookingId": 3,
+      "passengerId": "P002",
+      "trainName": "123 Superfast",
+      "date": "2024-11-30",
+      "time": "18:45",
+      "status": "Waitlisted",
+      "seatNumber": "N/A",
+      "source": "Boston",
+      "destination": "Philadelphia"
+    }
+  ]
+  
